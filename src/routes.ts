@@ -1,8 +1,22 @@
 import Home from './views/Home.vue'
+import Geometry from './views/Geometry.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
-  { path: '/', component: Home, meta: { title: 'Home' } },
+  { 
+    path: '/', 
+    component: Home, 
+    meta: { 
+      title: 'Home' 
+    } 
+  },
+  { 
+    path: '/geometry/:id', 
+    component: Geometry, 
+    meta: { 
+      title: 'Geometry',
+    },
+  },
   {
     path: '/:path(.*)',
     // example of route level code-splitting

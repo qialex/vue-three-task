@@ -1,4 +1,5 @@
 <template>
+  <!--
   <div class="absolute bottom-0 right-0 rounded-lg bg-gray-50 p-3 leading-4">
     <a href="https://github.com/yorickshan/Three.js-Vue3-Boilerplate" target="_blank" rel="noopener noreferrer" class="repo-link flex">
       <span>A modern starter project for Three.js | GitHub</span>
@@ -8,4 +9,5 @@
         <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg
     ></a>
   </div>
+  -->
 </template>

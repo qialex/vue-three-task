@@ -55,6 +55,9 @@ devDependencies:
   autoprefixer:
     specifier: ^10.4.13
     version: 10.4.13(postcss@8.4.21)
+  lil-gui:
+    specifier: ^0.19.1
+    version: 0.19.1
   prettier-plugin-tailwindcss:
     specifier: ^0.1.13
     version: 0.1.13(prettier@2.8.3)
@@ -985,6 +988,10 @@ packages:
     dependencies:
       is-promise: 2.2.2
       promise: 7.3.1
+    dev: true
+
+  /lil-gui@0.19.1:
+    resolution: {integrity: sha512-9dbIg+UxS8RIROI6OH5gV2KrVE0Cn37bcLOQGF2GKN8ibTxDrUSLzzZfkQR82LnZsgs7DEZOOGfn3zhtd6hk0Q==}
     dev: true
 
   /lilconfig@2.0.6:
